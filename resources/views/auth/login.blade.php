@@ -1,4 +1,4 @@
-@extends('layout/app')
+@extends('layout.app')
 @section('content')
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content rounded-4 shadow">
@@ -17,7 +17,7 @@
                         </ul>
                     </div>
                 @endif
-                <form action="{{ route('login.post') }}" method="POST" class="me-0">
+                <form action="{{ route('login') }}" method="POST" class="me-0">
                     @csrf
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control rounded-3" name="email" id="floatingInput"

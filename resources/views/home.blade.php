@@ -65,7 +65,7 @@
                 </button>
                 <a href="{{ url('cart') }}"><button class="btn2">
                         <i class="fa-solid fa-cart-shopping"></i></button></a>
-                <a href="Spesifikasi/index.html"><button class="btn3" type="submit">
+                <a href="{{ url('spesification') }}"><button class="btn3" type="submit">
                         <i class="fa-solid fa-magnifying-glass"></i></button></a>
             </div>
         </div>
@@ -205,7 +205,7 @@
                         <h5 class="card-title mb-4" style="font-size: calc(12px + 0.5vw); color: #438db8">
                             Rp.50.000,00
                         </h5>
-                        <a href="{{ url('detail') }}" class="btn btn-primary stretched-link"
+                        <a href="{{ url('cart') }}" class="btn btn-primary stretched-link"
                             style="
                   --bs-btn-padding-y: 0.25rem;
                   --bs-btn-padding-x: 1rem;
@@ -229,7 +229,7 @@
                         <h5 class="card-title mb-4" style="font-size: calc(12px + 0.5vw); color: #438db8">
                             Rp 200.000,00
                         </h5>
-                        <a href="{{ url('detail') }}" class="btn btn-primary stretched-link"
+                        <a href="{{ url('detailsproduct') }}" class="btn btn-primary stretched-link"
                             style="
                   --bs-btn-padding-y: 0.25rem;
                   --bs-btn-padding-x: 1rem;
@@ -253,7 +253,7 @@
                         <h5 class="card-title mb-4" style="font-size: calc(12px + 0.5vw); color: #438db8">
                             Rp 4.120.000,00
                         </h5>
-                        <a href="{{ url('detail') }}l" class="btn btn-primary stretched-link"
+                        <a href="{{ url('detailsproduct') }}" class="btn btn-primary stretched-link"
                             style="
                   --bs-btn-padding-y: 0.25rem;
                   --bs-btn-padding-x: 1rem;
@@ -380,7 +380,7 @@
                             <a href="Contac_Us/index.html" class="nav-link p-0 text-white">Contact Us</a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="{{ url('about') }}" class="nav-link p-0 text-white">About Us</a>
+                            <a href="about/index.html" class="nav-link p-0 text-white">About Us</a>
                         </li>
                     </ul>
                 </div>

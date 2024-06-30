@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Products</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./../Global Assets/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="px-5">
+        <div class="sosmed d-none d-lg-inline-flex">
+            <p>Follow us:</p>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div class="contact d-none d-lg-inline-flex">
+            <i class="fa-solid fa-phone"></i>
+            <p>+62 813-5267-3477</p>
+        </div>
+        <div class="gmail d-none d-md-inline-flex">
+            <i class="fa-regular fa-envelope"></i>
+            <p>jastipin.aja@gmail.com</p>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-lg-5">
+        <div class="container-fluid">
+            <h1 class="mx-2 mx-lg-5">Jastipin Aja</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="{{ url('home') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('product') }}">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('spesification') }}">Specification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('about') }}">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url('contact') }}">Contact us</a>
+                    </li>
+                </ul>
+                <button class="btn1" data-bs-toggle="modal" data-bs-target="#modalSignin"><i
+                        class="fa-regular fa-user"></i>Login / Register</button>
+                <a href="./../Cart/index.html"><button class="btn2"><i
+                            class="fa-solid fa-cart-shopping"></i></button></a>
+                <a href="./../Spesifikasi/index.html"><button class="btn3" type="submit"><i
+                            class="fa-solid fa-magnifying-glass"></i></button></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="detail-product overflow-hidden">
+            <div class="row">
+                <div class="image-iPhone col d-flex flex-column justify-content-center align-items-center">
+                    <img src="../assets/baju1.jpg" alt="" />
+                    <div class="tipe">
+                        <img src="../assets/sepatu2.jpg" alt="" />
+                        <img src="../assets/tas1.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="detail-iPhone col">
+                    <h4 class="title">Nylon shoulder bag with a zip at the top, an adjustable shoulder strap and a
+                        zipped inner compartment. Lined. Depth 6 cm. Height 18 cm. Width 27 cm.</h4>
+                    <p>Terjual 36 |</p>
+                    <hr />
+                    <div class="harga">
+                        <p class="harga-normal">Harga Normal Rp 800.000,00</p>
+                        <p class="hemat">Fee Rp 70.000,00</p>
+                    </div>
+                    <h4 class="detail-harga">Rp 870.000,00</h4>
+                    <div class="row row-cols-lg-2 row-cols-1 w-100 mx-0 px-2">
+                        <div class="spesifikasi col">
+                            <p class="text">Product by</p>
+                            <p class="merk">H&M</p>
+                            <p class="text2">Lihat Produk Lainnya</p>
+                            <p>Variasi : Grey</p>
+                            <p>Ukuran : One Size</p>
+                            <p>Kategori : Fashions</p>
+                            <p>Kategori - Brand : <strong style="color: #0099cc">Fashion - H&M</strong></p>
+                            <p>Tags : H&M, Bag</p>
+                        </div>
+                        <div class="shopee-card col">
+                            <h5>Belanja Sekarang</h5>
+                            <a href="./../Bayar/index.html">
+                                <p class="beli">Beli Sekarang</p>
+                            </a>
+                            <a href="./../Cart/index.html">
+                                <p class="tambah-keranjang">Tambah Keranjang</p>
+                            </a>
+                            <p>Tersesia di:</p>
+                            <div class="online-shop">
+                                <img src="../assets/tokopedia.png" alt="" />
+                                <img src="../assets/shopee.png" alt="" />
+                                <img src="../assets/bukalapak.png" alt="" />
+                                <img src="../assets/blibli.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container pengiriman">
+                    <p class="pengiriman">Pengiriman</p>
+                    <hr />
+                </div>
+                <div class="footer-card px-3">
+                    <div class="lokasi">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Dikirim dari <strong>Jawa Timur</strong></p>
+                    </div>
+                    <div class="sosial-media">
+                        <p>Bagikan ke:</p>
+                        <img src="../assets/facebook.png" alt="" />
+                        <img src="../assets/twitter.png" alt="" />
+                        <img src="../assets/wa.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="ulasan">
+            <div class="judul">
+                <h5>Ulasan Produk</h5>
+                <p>(1 ulasan)</p>
+            </div>
+            <hr />
+            <div class="ulasan-pembeli">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col profil px-5" style="width: fit-content">
+                        <img src="../assets/profil.png" alt="" />
+                        <p class="nama">Dino</p>
+                        <p class="waktu">1 bulan lalu</p>
+                    </div>
+                    <div class="col komen">
+                        <p>Tidak ada cacat produk, pelayanan ramah dan responsif, packing yang baik</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="container-lg my-5 h-100">
+        <h2 class="mb-4">Produk lainnya</h2>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+            <div class="col">
+                <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
+                    <img src="../assets/elektronik1.jpg" class="card-img-top" alt="img elektronik"
+                        style="aspect-ratio: 1/1; object-fit: cover" />
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div class="card-title-container">
+                            <p class="card-title" style="font-size: calc(8px + 0.5vw)">iPhone XS 256 GB - White</p>
+                            <h5 class="card-title" style="font-size: calc(12px + 0.5vw); color: #438db8">Rp4.120.000
+                            </h5>
+                        </div>
+                        <div class="btn-container">
+                            <a href="#" class="btn btn-primary"
+                                style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1rem; --bs-btn-bg: #438db8; --bs-btn-border-color: #438db8; --bs-btn-hover-bg: hsl(202, 47%, 40%); --bs-btn-hover-border-color: #438db8">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
+                    <img src="../assets/tas1.jpg" class="card-img-top" alt="img tas"
+                        style="aspect-ratio: 1/1; object-fit: cover" />
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div class="card-title-container">
+                            <p class="card-title" style="font-size: calc(8px + 0.5vw)">
+                                Nylon shoulder bag H&M
+                            </p>
+                            <h5 class="card-title" style="font-size: calc(12px + 0.5vw); color: #438db8">Rp.
+                                800.000,00</h5>
+                        </div>
+                        <div class="btn-container">
+                            <a href="#" class="btn btn-primary"
+                                style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1rem; --bs-btn-bg: #438db8; --bs-btn-border-color: #438db8; --bs-btn-hover-bg: hsl(202, 47%, 40%); --bs-btn-hover-border-color: #438db8">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
+                    <img src="../assets/sepatu2.jpg" class="card-img-top" alt="img sepatu"
+                        style="aspect-ratio: 1/1; object-fit: cover" />
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div class="card-title-container">
+                            <p class="card-title" style="font-size: calc(8px + 0.5vw)">
+                                Shoes Sneakers PULL&BEAR
+                            </p>
+                            <h5 class="card-title mb-4" style="font-size: calc(12px + 0.5vw); color: #438db8">Rp
+                                700.000,00</h5>
+                        </div>
+                        <div class="btn-container">
+                            <a href="#" class="btn btn-primary"
+                                style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1rem; --bs-btn-bg: #438db8; --bs-btn-border-color: #438db8; --bs-btn-hover-bg: hsl(202, 47%, 40%); --bs-btn-hover-border-color: #438db8">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
+                    <img src="../assets/makanan1.jpg" class="card-img-top" alt="img makanan"
+                        style="aspect-ratio: 1/1; object-fit: cover" />
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div class="card-title-container">
+                            <p class="card-title" style="font-size: calc(8px + 0.5vw)">
+                                Bento Seafood Snack 15 Pack x 25g Sweet Spicy Thai Food
+                            </p>
+                            <h5 class="card-title mb-4" style="font-size: calc(12px + 0.5vw); color: #438db8">
+                                Rp.50.000,00</h5>
+                        </div>
+                        <div class="btn-container">
+                            <a href="#" class="btn btn-primary"
+                                style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1rem; --bs-btn-bg: #438db8; --bs-btn-border-color: #438db8; --bs-btn-hover-bg: hsl(202, 47%, 40%); --bs-btn-hover-border-color: #438db8">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
+                    <img src="../assets/baju1.jpg" class="card-img-top" alt="img baju"
+                        style="aspect-ratio: 1/1; object-fit: cover" />
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div class="card-title-container">
+                            <p class="card-title" style="font-size: calc(8px + 0.5vw)">
+                                Zara Jewelry Studded Collar Puffy-Sleeved Buttoned Front Top
+                            </p>
+                            <h5 class="card-title" style="font-size: calc(12px + 0.5vw); color: #438db8">Rp 200.000,00
+                            </h5>
+                        </div>
+                        <div class="btn-container">
+                            <a href="#" class="btn btn-primary"
+                                style="--bs-btn-padding-y: 0.25rem; --bs-btn-padding-x: 1rem; --bs-btn-font-size: 1rem; --bs-btn-bg: #438db8; --bs-btn-border-color: #438db8; --bs-btn-hover-bg: hsl(202, 47%, 40%); --bs-btn-hover-border-color: #438db8">Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div class="bg-dark text-white">
+        <div class="container-lg">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 mt-5">
+                <div class="col mb-3">
+                    <a href="" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                        <h1 style="color: #438db8">Jastipin Aja</h1>
+                    </a>
+                    <p class="text-white">123 Main Street, City, Country</p>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Navigasi</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="./../index.html" class="nav-link p-0 text-white">Home</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="./../index.html"
+                                class="nav-link p-0 text-white">Benefits</a></li>
+                        <li class="nav-item mb-2"><a href="./../index.html" class="nav-link p-0 text-white">Best
+                                Seller</a></li>
+                        <li class="nav-item mb-2"><a href="./../Products/index.html"
+                                class="nav-link p-0 text-white">Produk
+                                Kami</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="./../index.html" class="nav-link p-0 text-white">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Informasi</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="./../Contac_Us/index.html"
+                                class="nav-link p-0 text-white">Contact
+                                Us</a></li>
+                        <li class="nav-item mb-2"><a href="./../about/index.html"
+                                class="nav-link p-0 text-white">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Sosial Media</h5>
+                    <ul class="nav flex-row">
+                        <li class="nav-item mb-2">
+                            <a href="#" class="me-2"><img src="../assets/ic_facebook.svg"
+                                    alt="facebook" /></a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="https://www.instagram.com/r.rzkika" class="me-2"><img
+                                    src="../assets/ic_instagarm.svg" alt="facebook" /></a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="#" class="me-2"><img src="../assets/ic_twitter.svg"
+                                    alt="facebook" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
