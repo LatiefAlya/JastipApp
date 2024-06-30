@@ -1,0 +1,549 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    text-align: center;
+    padding: 12px 0px;
+    width: 100%;
+    background-color: #438dbb;
+  }
+  
+  header .sosmed {
+    display: flex;
+  }
+  
+  header .sosmed p {
+    margin: 0px 12px 0px 0px;
+    color: white;
+  }
+  
+  header .sosmed i {
+    cursor: pointer;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    padding-top: 6px;
+    margin-right: 9.67px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    background: white;
+    height: 25px;
+    width: 25px;
+  }
+  
+  header .text {
+    color: white;
+  }
+  
+  header .text h5 {
+    font-size: calc(12px + 0.5vw);
+  }
+  
+  header .contact {
+    display: flex;
+    color: white;
+  }
+  
+  header .contact p {
+    margin: 0px;
+  }
+  
+  header .contact i {
+    cursor: pointer;
+    padding-right: 8px;
+    padding-top: 6px;
+  }
+  
+  header .gmail {
+    display: flex;
+    color: white;
+  }
+  
+  header .gmail i {
+    cursor: pointer;
+    padding-right: 8px;
+    padding-top: 6px;
+  }
+  
+  header .gmail p {
+    margin: 0px;
+  }
+  
+  /* HEADER */
+  
+  /* NAVBAR */
+  nav h1 {
+    margin-left: 90px;
+    font-weight: 700;
+    color: #438dbb;
+    margin-right: 170px;
+  }
+  
+  nav ul li {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(94, 94, 94);
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: #438dbb !important;
+  }
+  
+  form {
+    margin-right: 95px;
+  }
+  
+  .btn1,
+  .btn2,
+  .btn3 {
+    height: 38px;
+    background-color: white;
+    color: gray;
+    border: 2px solid rgb(198, 197, 197);
+    border-radius: 4px;
+    margin-left: 9.5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: 0.3s;
+  }
+  
+  .btn1:hover,
+  .btn2:hover,
+  .btn3:hover {
+    background-color: #438dbb;
+    color: white;
+  }
+  
+  .btn1 i {
+    padding-right: 8px;
+  }
+  
+  /* NAVBAR */
+  
+  .carousel-inner img {
+    max-height: 596px;
+  }
+  
+  .carousel-inner h1 {
+    margin-bottom: 420px;
+  }
+
+
+
+  /* CONTAC US */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1,
+.brand {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1 {
+  color: black;
+}
+
+.brand {
+  margin-left: 20px;
+  font-weight: 700;
+  color: #438dbb;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+}
+
+.info-box i {
+  margin-right: 10px;
+}
+
+.info-box h6,
+.info-box p {
+  margin: 0;
+}
+
+.info-box-text {
+  display: inline-block;
+}
+
+.email {
+  display: flex;
+  color: black;
+}
+
+.email i {
+  cursor: pointer;
+  padding-right: 8px;
+  padding-top: 6px;
+}
+
+.email h6 {
+  text-align: right;
+  margin-left: 10px;
+}
+
+.formContac {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formContac h1,
+.brand {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1 {
+  color: black;
+}
+
+.brand {
+  margin-left: 20px;
+  font-weight: 700;
+  color: #438dbb;
+}
+
+.formUs {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.additional-content {
+  text-align: center;
+}
+
+.additional-content img {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.additional-content button {
+  display: block;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.formUs,
+.additional-content {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.text-area textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.btn {
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.additional-content button:hover {
+  background-color: #0056b3;
+}
+
+
+/* NAVBAR */
+
+section {
+  height: 100vh;
+}
+
+.detail-product {
+  margin-top: 59px;
+  border: 2px solid rgb(198, 197, 197);
+  border-radius: 10px;
+}
+
+
+.detail-product .detail-iPhone p {
+  margin-bottom: 0px;
+}
+
+.detail-product .detail-iPhone hr {
+  margin-top: 0px;
+  margin-bottom: 29px;
+}
+
+.detail-iPhone .harga {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-iPhone .harga p {
+  margin-right: 8.25px;
+}
+
+.detail-iPhone .harga .harga-normal {
+  text-decoration: line-through;
+  color: rgb(198, 197, 197);
+}
+
+.detail-iPhone .harga .hemat {
+  font-size: 12px;
+  color: white;
+  border: 2px solid #438dbb;
+  border-radius: 2.75px;
+  background-color: #438dbb;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 2.75px;
+  padding-bottom: 2.75px;
+}
+
+.detail-product .detail-iPhone .detail-harga {
+  color: #438dbb;
+  font-weight: bold;
+  padding-top: 13px;
+}
+
+.row .spesifikasi {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.row .spesifikasi .text {
+  color: rgb(198, 197, 197);
+}
+
+.row .spesifikasi .merk {
+  font-weight: bold;
+}
+
+.row .spesifikasi .text2 {
+  color: #0094ff;
+  padding-top: 5px;
+}
+
+.row .shopee-card {
+  margin-top: 20px;
+  border: 2px solid rgb(198, 197, 197);
+  border-radius: 10px;
+}
+
+.row .shopee-card h5 {
+  margin-top: 21px;
+  text-align: center;
+}
+
+.row .shopee-card a {
+  text-decoration: none;
+}
+
+.row .shopee-card .beli {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #438dbb;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.row .shopee-card .beli:hover {
+  background-color: #356f93;
+}
+
+.row .shopee-card .tambah-keranjang {
+  margin-top: 5px;
+  color: #438dbb;
+  text-align: center;
+  border: 2px solid #438dbb;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.row .shopee-card p {
+  color: rgb(198, 197, 197);
+  margin-top: 10px;
+  margin-bottom: 11px;
+}
+
+.row .shopee-card .online-shop {
+  margin-bottom: 21px;
+}
+
+.pengiriman p {
+  color: rgb(172, 172, 172);
+  margin-left: 32px;
+  margin-bottom: 11px;
+}
+
+.pengiriman hr {
+  margin-top: 0px;
+}
+
+.lokasi {
+  color: rgb(172, 172, 172);
+  display: flex;
+  flex-direction: row;
+}
+
+.lokasi i {
+  margin-right: 3px;
+}
+
+.sosial-media {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.sosial-media p {
+  margin-right: 6px;
+}
+
+.footer-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+
+.ulasan {
+  margin-top: 21px;
+  border: 2px solid rgb(198, 197, 197);
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+.ulasan .judul {
+  display: flex;
+  flex-direction: row;
+}
+
+.ulasan .judul h5 {
+  font-weight: 400;
+  margin-left: 21px;
+  margin-top: 30px;
+  margin-right: 3px;
+  margin-bottom: 0px;
+}
+
+.ulasan .judul p {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.ulasan hr {
+  margin-top: 0px;
+}
+
+.ulasan-pembeli {
+  margin-top: 40px;
+  border: 2px solid rgb(198, 197, 197);
+  border-radius: 2.5px;
+  margin-left: 51px;
+  margin-right: 51px;
+  background-color: #fbfbfb;
+  margin-bottom: 40px;
+}
+
+.profil {
+  text-align: center;
+  margin-top: 8.5px;
+}
+
+.profil img {
+  margin-top: 8.5px;
+}
+
+.profil .nama {
+  margin-bottom: 2px;
+}
+
+.profil .waktu {
+  color: rgb(175, 173, 173);
+}
+
+.komen p {
+  margin-top: 8.5px;
+}
+
+.produk {
+  margin-top: 177px;
+}
+
+.card-produk {
+  display: flex;
+  margin-top: 64px;
+}
+  
+  /* RESPONSIVE */
+/* HEADER */
+@media screen and (max-width: 1300px) {
+  header {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  header .sosmed {
+    width: 185px;
+  }
+
+  header .text {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  /* HEADER */
+
+  /* NAVBAR */
+  nav h1 {
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  nav ul li {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  form {
+    margin-right: 50px;
+  }
+}
