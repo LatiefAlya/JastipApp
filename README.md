@@ -10,6 +10,9 @@
 ## Tema
 E-Commerce
 
+## Nama Aplikasi
+Jastip App
+
 ## Hi Friends ini adalah hasil web statis dari mini project yang telah dihasilkan dari kelompok kami 👋
 Anggota Kelompok
 1. Rissa Rizkika 
