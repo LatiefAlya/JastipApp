@@ -163,7 +163,7 @@
                             </h5>
                         </div>
                         <div class="btn-container">
-                            <a href="{{ url('detail') }}" class="btn btn-primary stretched-link"
+                            <a href="{{ url('detailsproduct') }}" class="btn btn-primary stretched-link"
                                 style="
                       --bs-btn-padding-y: 0.25rem;
                       --bs-btn-padding-x: 1rem;
@@ -192,7 +192,7 @@
                             </h5>
                         </div>
                         <div class="btn-container">
-                            <a href="{{ url('detail') }}" class="btn btn-primary stretched-link"
+                            <a href="{{ url('detailsproduct') }}" class="btn btn-primary stretched-link"
                                 style="
                       --bs-btn-padding-y: 0.25rem;
                       --bs-btn-padding-x: 1rem;
@@ -221,7 +221,7 @@
                             </h5>
                         </div>
                         <div class="btn-container">
-                            <a href="{{ url('detail') }}" class="btn btn-primary stretched-link"
+                            <a href="{{ url('detailsproduct') }}" class="btn btn-primary stretched-link"
                                 style="
                       --bs-btn-padding-y: 0.25rem;
                       --bs-btn-padding-x: 1rem;
@@ -250,7 +250,7 @@
                             </h5>
                         </div>
                         <div class="btn-container">
-                            <a href="{{ url('detail') }}" class="btn btn-primary stretched-link"
+                            <a href="{{ url('detailsproduct') }}" class="btn btn-primary stretched-link"
                                 style="
                       --bs-btn-padding-y: 0.25rem;
                       --bs-btn-padding-x: 1rem;
@@ -279,7 +279,7 @@
                             </h5>
                         </div>
                         <div class="btn-container">
-                            <a href="{{ url('detail') }}" class="btn btn-primary stretched-link"
+                            <a href="{{ url('detailsproduct') }}" class="btn btn-primary stretched-link"
                                 style="
                       --bs-btn-padding-y: 0.25rem;
                       --bs-btn-padding-x: 1rem;

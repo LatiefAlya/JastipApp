@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jastipin aja</title>
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="./../Global Assets/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="template/style.css" />
+    <link rel="stylesheet" href="template/Global Assets/fontawesome-free-6.5.1-web/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 </head>
@@ -58,9 +58,9 @@
                 <button class="btn1" data-bs-toggle="modal" data-bs-target="#modalSignin">
                     <i class="fa-regular fa-user"></i>Login / Register
                 </button>
-                <a href="./../Cart/index.html"><button class="btn2">
+                <a href="{{ url('cart') }}"><button class="btn2">
                         <i class="fa-solid fa-cart-shopping"></i></button></a>
-                <a href="./../Spesifikasi/index.html"><button class="btn3" type="submit">
+                <a href="{{ url('spesification') }}"><button class="btn3" type="submit">
                         <i class="fa-solid fa-magnifying-glass"></i></button></a>
             </div>
         </div>
@@ -77,19 +77,19 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../assets/gambar1.jpg" class="d-block w-100" alt="..." />
+                <img src="template/assets/gambar1.jpg" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Products</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../assets/gambar1.jpg" class="d-block w-100" alt="..." />
+                <img src="template/assets/gambar1.jpg" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Products</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../assets/gambar1.jpg" class="d-block w-100" alt="..." />
+                <img src="template/assets/gambar1.jpg" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Products</h1>
                 </div>
@@ -110,7 +110,7 @@
     <section
         class="text-center text-white container-lg rounded-3 my-3 d-flex justify-content-center align-items-center"
         style="
-        background: url('./assets/img_banner.svg') center/cover no-repeat;
+        background: url('template/assets/img_banner.svg') center/cover no-repeat;
         height: 200px;
       ">
         <h1 class="py-2">Semua Produk</h1>
@@ -123,7 +123,7 @@
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/baju1.jpg" class="card-img-top" alt="img baju"
+                    <img src="template/assets/baju1.jpg" class="card-img-top" alt="img baju"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -152,7 +152,7 @@
 
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/sepatu2.jpg" class="card-img-top" alt="img sepatu"
+                    <img src="template/assets/sepatu2.jpg" class="card-img-top" alt="img sepatu"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -181,7 +181,7 @@
 
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/elektronik1.jpg" class="card-img-top" alt="img elektronik"
+                    <img src="template/assets/elektronik1.jpg" class="card-img-top" alt="img elektronik"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -210,7 +210,7 @@
 
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/makanan1.jpg" class="card-img-top" alt="img makanan"
+                    <img src="template/assets/makanan1.jpg" class="card-img-top" alt="img makanan"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -239,7 +239,7 @@
 
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/tas1.jpg" class="card-img-top" alt="img tas"
+                    <img src="template/assets/tas1.jpg" class="card-img-top" alt="img tas"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -284,7 +284,7 @@
                     <h5>Navigasi</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">
-                            <a href="./../index.html" class="nav-link p-0 text-white">Home</a>
+                            <a href="{{ url('home') }}" class="nav-link p-0 text-white">Home</a>
                         </li>
                         <li class="nav-item mb-2">
                             <a href="./../index.html" class="nav-link p-0 text-white">Benefits</a>
@@ -305,10 +305,10 @@
                     <h5>Informasi</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2">
-                            <a href="./../Contac_Us/index.html" class="nav-link p-0 text-white">Contact Us</a>
+                            <a href="{{ url('contact') }}" class="nav-link p-0 text-white">Contact Us</a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="./../about/index.html" class="nav-link p-0 text-white">About Us</a>
+                            <a href="{{ url('about') }}" class="nav-link p-0 text-white">About Us</a>
                         </li>
                     </ul>
                 </div>
@@ -317,15 +317,15 @@
                     <h5>Sosial Media</h5>
                     <ul class="nav flex-row">
                         <li class="nav-item mb-2">
-                            <a href="#" class="me-2"><img src="../assets/ic_facebook.svg"
+                            <a href="#" class="me-2"><img src="template/assets/ic_facebook.svg"
                                     alt="facebook" /></a>
                         </li>
                         <li class="nav-item mb-2">
                             <a href="https://www.instagram.com/r.rzkika" class="me-2"><img
-                                    src="../assets/ic_instagarm.svg" alt="Instagram" /></a>
+                                    src="template/assets/ic_instagarm.svg" alt="Instagram" /></a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="me-2"><img src="../assets/ic_twitter.svg"
+                            <a href="#" class="me-2"><img src="template/assets/ic_twitter.svg"
                                     alt="Twitter" /></a>
                         </li>
                     </ul>

@@ -62,9 +62,9 @@
                 </ul>
                 <button class="btn1" data-bs-toggle="modal" data-bs-target="#modalSignin"><i
                         class="fa-regular fa-user"></i>Login / Register</button>
-                <a href="./../Cart/index.html"><button class="btn2"><i
+                <a href="{{ url('cart') }}"><button class="btn2"><i
                             class="fa-solid fa-cart-shopping"></i></button></a>
-                <a href="./../Spesifikasi/index.html"><button class="btn3" type="submit"><i
+                <a href="{{ url('spesification') }}"><button class="btn3" type="submit"><i
                             class="fa-solid fa-magnifying-glass"></i></button></a>
             </div>
         </div>
@@ -127,19 +127,19 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/template/assets/gambar1.jpg" class="d-block w-100" alt="..." />
+                <img src="template/assets/gambar1.jpg" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>About Us</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/template/assets/gambar1.jpg" class="d-block w-100" alt="..." />
+                <img src="template/assets/gambar1.jpg" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>About Us</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="/template/assets/gambar1" class="d-block w-100" alt="..." />
+                <img src="template/assets/gambar1" class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>About Us</h1>
                 </div>
@@ -166,7 +166,7 @@
         <div class="container text-center mt-5">
             <div class="row">
                 <div class="col">
-                    <h3><img src="/template/assets/check.png" width="50px" alt="" />Kualitas Bisnis.</h3>
+                    <h3><img src="template/assets/check.png" width="50px" alt="" />Kualitas Bisnis.</h3>
                     <p>
                         Kualitas bisnis pada toko kami tercermin dalam komunikasi yang terbuka dan jujur dengan
                         pelanggan. Kami
@@ -177,7 +177,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <h3><img src="/template/assets/check.png" width="50px" alt="" />Misi Dan Tujuan</h3>
+                    <h3><img src="template/assets/check.png" width="50px" alt="" />Misi Dan Tujuan</h3>
                     <p>
                         Misi kami adalah memberikan solusi teknologi yang personal kepada setiap pelanggan. Melalui
                         pendekatan yang
@@ -188,7 +188,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <h3><img src="/template/assets/check.png" width="50px" alt="" />Kepuasan Pelanggan</h3>
+                    <h3><img src="template/assets/check.png" width="50px" alt="" />Kepuasan Pelanggan</h3>
                     <p>
                         Untuk menjaga kepuasan pelanggan kami menghargai umpan balik pelanggan dan menggunakan informasi
                         tersebut
@@ -260,15 +260,15 @@
                     <h5>Sosial Media</h5>
                     <ul class="nav flex-row">
                         <li class="nav-item mb-2">
-                            <a href="#" class="me-2"><img src="/template/assets/ic_facebook.svg"
+                            <a href="#" class="me-2"><img src="template/assets/ic_facebook.svg"
                                     alt="facebook" /></a>
                         </li>
                         <li class="nav-item mb-2">
                             <a href="https://www.instagram.com/bangrez_apple" class="me-2"><img
-                                    src="../assets/ic_instagarm.svg" alt="facebook" /></a>
+                                    src="template/assets/ic_instagarm.svg" alt="facebook" /></a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="me-2"><img src="/template/assets/ic_twitter.svg"
+                            <a href="#" class="me-2"><img src="template/assets/ic_twitter.svg"
                                     alt="facebook" /></a>
                         </li>
                     </ul>

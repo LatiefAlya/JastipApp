@@ -127,19 +127,22 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../assets/gambar1.jpg" class="d-block w-100" alt="img_banner" style="object-fit: cover" />
+                <img src="template/assets/gambar1.jpg" class="d-block w-100" alt="img_banner"
+                    style="object-fit: cover" />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Enhance Your Life with Comfort and Style</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../assets/gambar1.jpg" class="d-block w-100" alt="img_banner" style="object-fit: cover" />
+                <img src="template/assets/gambar1.jpg" class="d-block w-100" alt="img_banner"
+                    style="object-fit: cover" />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Enhance Your Life with Comfort and Style</h1>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../assets/gambar1.jpg" class="d-block w-100" alt="img_banner" style="object-fit: cover" />
+                <img src="template/assets/gambar1.jpg" class="d-block w-100" alt="img_banner"
+                    style="object-fit: cover" />
                 <div class="carousel-caption d-none d-md-block">
                     <h1>Enhance Your Life with Comfort and Style</h1>
                 </div>
@@ -161,7 +164,7 @@
         <div class="row py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col text-center">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
-                    <img src="../assets/ic_delivery.svg" alt="ic delivery" />
+                    <img src="template/assets/ic_delivery.svg" alt="ic delivery" />
                 </div>
                 <h3 class="fs-2 text-body-emphasis">Gratis Ongkir</h3>
                 <p class="fs-5">
@@ -170,7 +173,7 @@
             </div>
             <div class="feature col text-center">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
-                    <img src="../assets/ic_agreement.svg" alt="ic agreement" />
+                    <img src="template/assets/ic_agreement.svg" alt="ic agreement" />
                 </div>
                 <h3 class="fs-2 text-body-emphasis">Terpercaya</h3>
                 <p class="fs-5">
@@ -179,7 +182,7 @@
             </div>
             <div class="feature col text-center">
                 <div class="feature-icon d-inline-flex align-items-center justify-content-center mb-3">
-                    <img src="../assets/ic_shield.svg" alt="ic shield" />
+                    <img src="template/assets/ic_shield.svg" alt="ic shield" />
                 </div>
                 <h3 class="fs-2 text-body-emphasis">Bergaransi</h3>
                 <p class="fs-5">
@@ -196,7 +199,7 @@
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-3 mx-lg-5">
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/makanan1.jpg" class="card-img-top" alt="img makanan"
+                    <img src="template/assets/makanan1.jpg" class="card-img-top" alt="img makanan"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body">
                         <h6 class="card-title" style="font-size: calc(12px + 0.5vw)">
@@ -220,7 +223,7 @@
             </div>
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/baju1.jpg" class="card-img-top" alt="img baju"
+                    <img src="template/assets/baju1.jpg" class="card-img-top" alt="img baju"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body">
                         <h6 class="card-title" style="font-size: calc(12px + 0.5vw)">
@@ -244,7 +247,7 @@
             </div>
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/elektronik1.jpg" class="card-img-top" alt="img elektronik"
+                    <img src="template/assets/elektronik1.jpg" class="card-img-top" alt="img elektronik"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body">
                         <h6 class="card-title" style="font-size: calc(12px + 0.5vw)">
@@ -281,8 +284,8 @@
 
     <section class="container-lg text-center my-5">
         <h1>Tersedia juga di marketplace favorit kamu</h1>
-        <img src="../assets/ic_shopee.svg" alt="icon shopee" class="mx-5 my-3 my-lg-5" />
-        <img src="../assets/ic_tokped.svg" alt="icon tokopedia" class="mx-5 my-3 my-lg-5" />
+        <img src="template/assets/ic_shopee.svg" alt="icon shopee" class="mx-5 my-3 my-lg-5" />
+        <img src="template/assets/ic_tokped.svg" alt="icon tokopedia" class="mx-5 my-3 my-lg-5" />
     </section>
 
     <!-- Accordion -->
@@ -389,15 +392,15 @@
                     <h5>Sosial Media</h5>
                     <ul class="nav flex-row">
                         <li class="nav-item mb-2">
-                            <a href="#" class="me-2"><img src="/template/assets/ic_facebook.svg"
+                            <a href="#" class="me-2"><img src="template/assets/ic_facebook.svg"
                                     alt="facebook" /></a>
                         </li>
                         <li class="nav-item mb-2">
                             <a href="https://www.instagram.com/r.rzkika" class="me-2"><img
-                                    src="/template/assets/ic_instagarm.svg" alt="facebook" /></a>
+                                    src="template/assets/ic_instagarm.svg" alt="facebook" /></a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="me-2"><img src="/template/assets/ic_twitter.svg"
+                            <a href="#" class="me-2"><img src="template/assets/ic_twitter.svg"
                                     alt="facebook" /></a>
                         </li>
                     </ul>

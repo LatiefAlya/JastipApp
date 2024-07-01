@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail Products</title>
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="./../Global Assets/fontawesome-free-6.5.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="template/style.css" />
+    <link rel="stylesheet" href="template/Global Assets/fontawesome-free-6.5.1-web/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 </head>
@@ -56,9 +56,9 @@
                 </ul>
                 <button class="btn1" data-bs-toggle="modal" data-bs-target="#modalSignin"><i
                         class="fa-regular fa-user"></i>Login / Register</button>
-                <a href="./../Cart/index.html"><button class="btn2"><i
+                <a href="{{ url('cart') }}"><button class="btn2"><i
                             class="fa-solid fa-cart-shopping"></i></button></a>
-                <a href="./../Spesifikasi/index.html"><button class="btn3" type="submit"><i
+                <a href="{{ url('spesification') }}"><button class="btn3" type="submit"><i
                             class="fa-solid fa-magnifying-glass"></i></button></a>
             </div>
         </div>
@@ -101,15 +101,15 @@
                             <a href="./../Bayar/index.html">
                                 <p class="beli">Beli Sekarang</p>
                             </a>
-                            <a href="./../Cart/index.html">
+                            <a href="{{ url('cart') }}">
                                 <p class="tambah-keranjang">Tambah Keranjang</p>
                             </a>
                             <p>Tersesia di:</p>
                             <div class="online-shop">
-                                <img src="../assets/tokopedia.png" alt="" />
-                                <img src="../assets/shopee.png" alt="" />
-                                <img src="../assets/bukalapak.png" alt="" />
-                                <img src="../assets/blibli.png" alt="" />
+                                <img src="template/assets/tokopedia.png" alt="" />
+                                <img src="template/assets/shopee.png" alt="" />
+                                <img src="template/assets/bukalapak.png" alt="" />
+                                <img src="template/assets/blibli.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -125,9 +125,9 @@
                     </div>
                     <div class="sosial-media">
                         <p>Bagikan ke:</p>
-                        <img src="../assets/facebook.png" alt="" />
-                        <img src="../assets/twitter.png" alt="" />
-                        <img src="../assets/wa.png" alt="" />
+                        <img src="template/assets/facebook.png" alt="" />
+                        <img src="template/assets/twitter.png" alt="" />
+                        <img src="template/assets/wa.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -144,7 +144,7 @@
             <div class="ulasan-pembeli">
                 <div class="row row-cols-1 row-cols-lg-2">
                     <div class="col profil px-5" style="width: fit-content">
-                        <img src="../assets/profil.png" alt="" />
+                        <img src="template/assets/profil.png" alt="" />
                         <p class="nama">Dino</p>
                         <p class="waktu">1 bulan lalu</p>
                     </div>
@@ -162,7 +162,7 @@
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/elektronik1.jpg" class="card-img-top" alt="img elektronik"
+                    <img src="template/assets/elektronik1.jpg" class="card-img-top" alt="img elektronik"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -180,7 +180,7 @@
 
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/tas1.jpg" class="card-img-top" alt="img tas"
+                    <img src="template/assets/tas1.jpg" class="card-img-top" alt="img tas"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -200,7 +200,7 @@
 
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/sepatu2.jpg" class="card-img-top" alt="img sepatu"
+                    <img src="template/assets/sepatu2.jpg" class="card-img-top" alt="img sepatu"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -220,7 +220,7 @@
 
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/makanan1.jpg" class="card-img-top" alt="img makanan"
+                    <img src="template/assets/makanan1.jpg" class="card-img-top" alt="img makanan"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -240,7 +240,7 @@
 
             <div class="col">
                 <div class="card h-100" style="box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1)">
-                    <img src="../assets/baju1.jpg" class="card-img-top" alt="img baju"
+                    <img src="template/assets/baju1.jpg" class="card-img-top" alt="img baju"
                         style="aspect-ratio: 1/1; object-fit: cover" />
                     <div class="card-body d-flex flex-column justify-content-between">
                         <div class="card-title-container">
@@ -306,15 +306,15 @@
                     <h5>Sosial Media</h5>
                     <ul class="nav flex-row">
                         <li class="nav-item mb-2">
-                            <a href="#" class="me-2"><img src="../assets/ic_facebook.svg"
+                            <a href="#" class="me-2"><img src="template/assets/ic_facebook.svg"
                                     alt="facebook" /></a>
                         </li>
                         <li class="nav-item mb-2">
                             <a href="https://www.instagram.com/r.rzkika" class="me-2"><img
-                                    src="../assets/ic_instagarm.svg" alt="facebook" /></a>
+                                    src="template/assets/ic_instagarm.svg" alt="facebook" /></a>
                         </li>
                         <li class="nav-item mb-2">
-                            <a href="#" class="me-2"><img src="../assets/ic_twitter.svg"
+                            <a href="#" class="me-2"><img src="template/assets/ic_twitter.svg"
                                     alt="facebook" /></a>
                         </li>
                     </ul>
