@@ -30,8 +30,9 @@ JastipApp adalah platform inovatif yang menghubungkan dengan para pembeli dan pe
 - MySQL
 
 ## Cara Run Project
-  1. Composer install
-  2. php artisan migrate
-  3. php artisan serve
+  1. Buka XAMPP lalu aktifkan MySQl
+  2. Composer install
+  3. php artisan migrate
+  4. php artisan serve
 
 
